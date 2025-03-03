@@ -20,7 +20,7 @@ services:
     restart: always
 
   jenkins-blueocean:
-    image: jedha/sample-jenkins-server
+    image: jenkins/jenkins:2.462.1-jdk17
     container_name: jenkins-blueocean
     networks:
       - jenkins
